@@ -1,5 +1,5 @@
 {
-  "name": "@van-ons/block-editor",
+  "name": "@babyandy0111/block-editor",
   "version": "1.0.0",
   "description": "A standalone implementation of the WordPress Block Editor",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "gutenberg",
     "block-editor"
   ],
-  "author": "Maurice Wijnia",
+  "author": "Andy",
   "license": "GPL-2.0-or-later",
   "types": "dist/index.d.ts",
   "files": [
@@ -33,6 +33,7 @@
     "@wordpress/block-library": "^7.6.0",
     "@wordpress/blocks": "^11.8.0",
     "@wordpress/components": "^19.11.0",
+    "@wordpress/compose": "^5.11.0",
     "@wordpress/data": "^6.9.0",
     "@wordpress/element": "^4.7.0",
     "@wordpress/format-library": "^3.7.0",
@@ -63,10 +64,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VanOns/block-editor.git"
+    "url": "git+https://github.com/babyandy0111/block-editor.git"
   },
   "bugs": {
-    "url": "https://github.com/VanOns/block-editor/issues"
+    "url": "https://github.com/babyandy0111/block-editor/issues"
   },
-  "homepage": "https://github.com/VanOns/block-editor#readme"
+  "homepage": "https://github.com/babyandy0111/block-editor#readme"
 }
