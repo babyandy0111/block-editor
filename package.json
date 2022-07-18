@@ -1,6 +1,6 @@
 {
   "name": "@babyandy0111/block-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A standalone implementation of the WordPress Block Editor",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -34,6 +34,7 @@
     "@wordpress/blocks": "^11.8.0",
     "@wordpress/components": "^19.11.0",
     "@wordpress/compose": "^5.11.0",
+    "@wordpress/i18n": "^4.13.0",
     "@wordpress/data": "^6.9.0",
     "@wordpress/element": "^4.7.0",
     "@wordpress/format-library": "^3.7.0",
