@@ -1,6 +1,6 @@
 {
   "name": "@babyandy0111/block-editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A standalone implementation of the WordPress Block Editor",
   "main": "dist/index.js",
   "module": "dist/index.js",
