@@ -1,6 +1,7 @@
 import '../src/styles.scss'
 import * as BlockEditor from '../src/index'
 import seoFaq from "../src/blocks/seo-faq";
+import test from  "../src/blocks/my-block"
 const { hooks } = BlockEditor.wordpress
 
 hooks.addFilter('blocks.registerBlockType', 'block-editor', (settings, blockName) => {
@@ -43,6 +44,7 @@ const settings = {
 }
 
 seoFaq()
+test()
 
 BlockEditor.initializeEditor(element, settings);
 
