@@ -4,34 +4,36 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>BlockEditor Playground</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-    </style>
 </head>
 <body>
-<div class="container">
-    <form id="form">
+<div>
+    <form id="form" style="width: 100%">
         <input type="hidden" name="content" id="content">
         <br>
-        <button class="button">Save</button>
+        <button>Save</button>
+        <h1 class="text-3xl font-bold underline">
+            Hello world!
+        </h1>
     </form>
-    <h1 className="text-3xl font-bold underline">
-        Hello world!
-    </h1>
 </div>
 <div id="app"></div>
-<script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
 <script>
     window.global = window
 </script>
 <script type="module" src="./main.js"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+            }
+        }
+    }
+</script>
 </body>
 </html>

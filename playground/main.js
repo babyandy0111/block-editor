@@ -2,6 +2,8 @@ import '../src/styles.scss'
 import * as BlockEditor from '../src/index'
 import seoFaq from "../src/blocks/seo-faq";
 import test from  "../src/blocks/my-block"
+import twui from  "../src/blocks/tailwindui-block"
+
 const { hooks } = BlockEditor.wordpress
 
 hooks.addFilter('blocks.registerBlockType', 'block-editor', (settings, blockName) => {
@@ -41,10 +43,12 @@ const settings = {
         }, 1000)
     },
     // disabledCoreBlocks: [''],
+    height: '650px',
 }
 
 seoFaq()
 test()
+twui()
 
 BlockEditor.initializeEditor(element, settings);
 
