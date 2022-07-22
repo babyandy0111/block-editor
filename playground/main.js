@@ -38,9 +38,11 @@ const settings = {
             })
             onFileChange(uploadedFiles)
         }, 1000)
-    }
+    },
+    // disabledCoreBlocks: [''],
 }
 
 seoFaq()
+
 BlockEditor.initializeEditor(element, settings);
 
