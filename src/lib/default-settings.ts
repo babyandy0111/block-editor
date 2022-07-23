@@ -1,7 +1,9 @@
-import EditorSettings from "../interfaces/editor-settings";
+import EditorSettings from "../interfaces/editor-settings"
+import fetchHandler from '../lib/fetch-handler'
 
 const defaultSettings: EditorSettings = {
     // Laraberg settings
+    fetchHandler,
     height: '500px',
     mediaUpload: undefined,
     disabledCoreBlocks: [

@@ -2,7 +2,9 @@ import '../src/styles.scss'
 import * as BlockEditor from '../src/index'
 import seoFaq from "../src/blocks/seo-faq";
 import test from  "../src/blocks/my-block"
-import twui from  "../src/blocks/tailwindui-block"
+import twUi from  "../src/blocks/tailwindui-block"
+import mediaUpload from "../src/blocks/media-upload-block";
+import serverSideRenderBlock from "../src/blocks/server-side-render-block";
 
 const { hooks } = BlockEditor.wordpress
 
@@ -48,7 +50,9 @@ const settings = {
 
 seoFaq()
 test()
-twui()
+twUi()
+mediaUpload()
+serverSideRenderBlock()
 
 BlockEditor.initializeEditor(element, settings);
 
